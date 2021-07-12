@@ -42,7 +42,8 @@ ${data.description}
   ## Usage
     ${data.usage}
 
-${renderLicenseSection(data.license)}  
+${renderLicenseSection(data.license)} 
+${renderLicenseLink(data.license)} 
 
 ## Contributing
 ${data.contribution}
